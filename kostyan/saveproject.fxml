@@ -1,0 +1,14 @@
+<?import javafx.scene.control.DialogPane?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<DialogPane prefHeight="100" prefWidth="200" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kostyan.DialogController">
+    <content>
+        <GridPane vgap="10" hgap="10" alignment="CENTER">
+            <Label text="Enter your file name" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="saveField" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        </GridPane>
+    </content>
+</DialogPane>
